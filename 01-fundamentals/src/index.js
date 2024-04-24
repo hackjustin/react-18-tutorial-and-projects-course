@@ -3,13 +3,22 @@ import ReactDOM from 'react-dom/client'
 
 import './index.css'
 
+const books = [
+  {
+    name: 'Fight Club',
+    author: 'Chuck Palahniuk',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQHrDSARiAi40mnBrXnU9o1nm4hygOLUAN5TNqFqIVA&s',
+  },
+  {
+    name: 'The Alchemist',
+    author: 'Paulo Cuelo',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8s7ZQ7z1tjJ8BzE8H3YRv2y8s6H6JQ8Zk3y1h2c2q2w&s',
+  }
+]
 const BookList = () => {
   return (
     <section className='booklist'>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+ 
     </section>
   )
 }
