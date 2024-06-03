@@ -1,4 +1,4 @@
-import about from '../images/about.jpeg'
+import aboutImg from '../images/about.jpeg'
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <div className="section-center about-center">
         <div className="about-img">
           <img
-            src={about}
+            src={aboutImg}
             className="about-photo"
             alt="awesome beach"
           />
